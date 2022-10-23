@@ -39,3 +39,58 @@ oder das Vst3 plugi so:*********************************************************
 ***********************************************************************************************************************
 
 
+Die Aktuelle version Von DeadPoolAudio_Beta_V301   kann man hier installieren  (win7 installer) 
+
+
+
+https://drive.google.com/file/d/1Mmv0f3UI8rpqLFSAe9otSQzC347o5ixD/view?usp=sharing
+
+
+
+
+windows 10 benutzer müssen die hilfe benutzen so:
+
+
+![st1](https://user-images.githubusercontent.com/13609732/197398460-632fc324-3831-4b68-90e2-e5c3e9060783.PNG)
+
+
+
+
+danach:
+
+
+
+
+
+![st2](https://user-images.githubusercontent.com/13609732/197398473-232e2627-7b2d-4b52-b3e0-edcf2ef4d764.PNG)
+
+
+
+
+
+
+
+sollte dann das machen:
+
+
+
+
+
+
+
+![dpa301](https://user-images.githubusercontent.com/13609732/197398510-573cea26-7fbf-490e-90f4-cd5c415c5d28.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+sonst schreibt mir r-hug@gmx.ch
+
+
