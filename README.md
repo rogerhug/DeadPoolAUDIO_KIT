@@ -90,7 +90,14 @@ sollte dann das machen:
 
 
 
+es hat ca 50 Preset vorwiegend Techno/House basiert um das timing zu testen .
 
-sonst schreibt mir r-hug@gmx.ch
+
+bei mir ist es nie abgestürzt 
+
+
+
+
+sonst schreibt mir  wenn etwas nicht funktiert    r-hug@gmx.ch
 
 
