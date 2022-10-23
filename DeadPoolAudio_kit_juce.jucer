@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="dtkunn" name="DeadPoolAudio_kit_juce" projectType="audioplug"
+              useAppConfig="1" addUsingNamespaceToJuceHeader="1" displaySplashScreen="1"
+              jucerFormatVersion="1" companyName="r7records" companyEmail="r-hug@gmx.ch"
+              splashScreenColour="Light" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="Xa3EfI" name="DeadPoolAudio_kit_juce">
+    <GROUP id="{4FFFAAD7-AF7D-845A-E467-AFB7A73B1375}" name="MainControl">
+      <FILE id="RJ97e4" name="mainController.cpp" compile="1" resource="0"
+            file="MainControl/mainController.cpp"/>
+      <FILE id="fdZKag" name="mainController.h" compile="0" resource="0"
+            file="MainControl/mainController.h"/>
+      <FILE id="H1ultF" name="mainGui.cpp" compile="1" resource="0" file="MainControl/mainGui.cpp"/>
+      <FILE id="N6aqsM" name="mainGui.h" compile="0" resource="0" file="MainControl/mainGui.h"/>
+      <FILE id="UWJC10" name="TriggerGui.cpp" compile="1" resource="0" file="MainControl/TriggerGui.cpp"/>
+      <FILE id="QMmiIR" name="TriggerGui.h" compile="0" resource="0" file="MainControl/TriggerGui.h"/>
+    </GROUP>
+    <GROUP id="{480F0930-7C26-8520-5233-3DBB1EB480C0}" name="time">
+      <FILE id="eMLq3E" name="timeLines.cpp" compile="1" resource="0" file="Source/timeLines.cpp"/>
+      <FILE id="Uer0Bc" name="timeLines.h" compile="0" resource="0" file="Source/timeLines.h"/>
+    </GROUP>
+    <GROUP id="{ADFEF81C-C803-38BD-CF13-9743451576ED}" name="binaryFiles">
+      <FILE id="Mic2Fd" name="audioUrlFiles.cpp" compile="1" resource="0"
+            file="../../DeadPoolAudio_Modelx4_juce-main/binaryFiles/audioUrlFiles.cpp"/>
+      <FILE id="SU4Rkf" name="audioUrlFiles.h" compile="0" resource="0" file="../../DeadPoolAudio_Modelx4_juce-main/binaryFiles/audioUrlFiles.h"/>
+      <FILE id="IEO8tJ" name="binary.cpp" compile="1" resource="0" file="../../DeadPoolAudio_Modelx4_juce-main/binaryFiles/binary.cpp"/>
+      <FILE id="WVMrCm" name="binary.h" compile="0" resource="0" file="../../DeadPoolAudio_Modelx4_juce-main/binaryFiles/binary.h"/>
+    </GROUP>
+    <GROUP id="{F74C2030-7D71-402D-98F3-62739FED656A}" name="AudioSampel">
+      <FILE id="hHFepu" name="modulator.cpp" compile="1" resource="0" file="AudioSampel/modulator.cpp"/>
+      <FILE id="hBZotV" name="modulator.h" compile="0" resource="0" file="AudioSampel/modulator.h"/>
+      <FILE id="u1L34h" name="playSampelFile.cpp" compile="1" resource="0"
+            file="AudioSampel/playSampelFile.cpp"/>
+      <FILE id="T5DLnu" name="playSampelFile.h" compile="0" resource="0"
+            file="AudioSampel/playSampelFile.h"/>
+      <FILE id="WKcT7E" name="SamplerController.cpp" compile="1" resource="0"
+            file="AudioSampel/SamplerController.cpp"/>
+      <FILE id="ABv4g8" name="SamplerController.h" compile="0" resource="0"
+            file="AudioSampel/SamplerController.h"/>
+      <FILE id="vUkL78" name="SamplerGui.cpp" compile="1" resource="0" file="AudioSampel/SamplerGui.cpp"/>
+      <FILE id="DkGoyy" name="SamplerGui.h" compile="0" resource="0" file="AudioSampel/SamplerGui.h"/>
+      <FILE id="BI4xEc" name="showWave.cpp" compile="1" resource="0" file="AudioSampel/showWave.cpp"/>
+      <FILE id="YDWITx" name="showWave.h" compile="0" resource="0" file="AudioSampel/showWave.h"/>
+    </GROUP>
+    <GROUP id="{BB90066C-3973-12F6-F3BF-E066EA01D86A}" name="Source">
+      <FILE id="CTGWrv" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="O0ADhc" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="d8vzJR" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mszRpQ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="rScV0c" name="filebrowser.h" compile="0" resource="0" file="Source/filebrowser.h"/>
+      <FILE id="KWG3VB" name="filebrowser.cpp" compile="1" resource="0" file="Source/filebrowser.cpp"/>
+      <FILE id="eFH4tG" name="rtwtypes.h" compile="0" resource="0" file="Source/rtwtypes.h"/>
+    </GROUP>
+    <GROUP id="{95A69006-51E9-87C8-CD1C-5CC74C9A3970}" name="filter">
+      <FILE id="KuUYsO" name="Dc_Blocker.cpp" compile="1" resource="0" file="filter/Dc_Blocker.cpp"/>
+      <FILE id="NV0dsr" name="Dc_Blocker.h" compile="0" resource="0" file="filter/Dc_Blocker.h"/>
+      <FILE id="cIxdOF" name="moog24db.cpp" compile="1" resource="0" file="filter/moog24db.cpp"/>
+      <FILE id="m6Ie09" name="moog24db.h" compile="0" resource="0" file="filter/moog24db.h"/>
+      <FILE id="bwyoL9" name="rtwtypes.h" compile="0" resource="0" file="filter/rtwtypes.h"/>
+    </GROUP>
+    <GROUP id="{3FE71C44-3B55-B496-358E-35B5DE2AA46A}" name="echo">
+      <FILE id="bhUyvC" name="echoController.cpp" compile="1" resource="0"
+            file="echo/echoController.cpp"/>
+      <FILE id="GEEksH" name="echoController.h" compile="0" resource="0"
+            file="echo/echoController.h"/>
+      <FILE id="txVlLk" name="echogenerator.cpp" compile="1" resource="0"
+            file="echo/echogenerator.cpp"/>
+      <FILE id="fMFlX9" name="echogenerator.h" compile="0" resource="0" file="echo/echogenerator.h"/>
+      <FILE id="SlK106" name="rtwtypes.h" compile="0" resource="0" file="echo/rtwtypes.h"/>
+    </GROUP>
+    <GROUP id="{507A8AD1-3C4F-36F7-B435-FCFC85788625}" name="synth">
+      <FILE id="eFGFVp" name="ADSREnvelope.cpp" compile="1" resource="0"
+            file="synth/ADSREnvelope.cpp"/>
+      <FILE id="pTSDRh" name="ADSREnvelope.hpp" compile="0" resource="0"
+            file="synth/ADSREnvelope.hpp"/>
+      <FILE id="o0xmIs" name="EnvelopeGeneratorBase.cpp" compile="1" resource="0"
+            file="synth/EnvelopeGeneratorBase.cpp"/>
+      <FILE id="jIyLRj" name="EnvelopeGeneratorBase.hpp" compile="0" resource="0"
+            file="synth/EnvelopeGeneratorBase.hpp"/>
+      <FILE id="PrZdtw" name="noise.cpp" compile="1" resource="0" file="synth/noise.cpp"/>
+      <FILE id="UKka0C" name="noise.h" compile="0" resource="0" file="synth/noise.h"/>
+      <FILE id="kbs6Dl" name="showOscilator.cpp" compile="1" resource="0"
+            file="synth/showOscilator.cpp"/>
+      <FILE id="tle54N" name="showOscilator.h" compile="0" resource="0" file="synth/showOscilator.h"/>
+      <FILE id="EPgb3t" name="SynthOscillator.cpp" compile="1" resource="0"
+            file="synth/SynthOscillator.cpp"/>
+      <FILE id="bam4dG" name="SynthOscillator.h" compile="0" resource="0"
+            file="synth/SynthOscillator.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DeadPoolAudio_kit"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DeadPoolAudio_kit"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_analytics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DeadPoolSloT1_resampling"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DeadPoolSloT1_resampling"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_analytics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
