@@ -43,10 +43,10 @@ Die Aktuelle version Von DeadPoolAudio_Beta_V301   kann man hier installieren  (
 
 
 
-https://drive.google.com/file/d/1Mmv0f3UI8rpqLFSAe9otSQzC347o5ixD/view?usp=sharing
+https://drive.google.com/file/d/1Gf-ilQ3U98nTbP0Xb3TSwOtZjNWh6Eu3/view?usp=sharing
 
 
-
+update 24.10.2022       # looper funktion für sampelwabbels 
 
 windows 10 benutzer müssen die hilfe benutzen so:
 
