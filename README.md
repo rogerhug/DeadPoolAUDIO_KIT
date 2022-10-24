@@ -93,7 +93,7 @@ sollte dann das machen:
 es hat ca 50 Preset vorwiegend Techno/House basiert um das timing zu testen .
 
 
-bei mir ist es nie abgestürzt 
+bei mir ist es nie abgestürzt das timing ist für einen audio/asio buffer mit 256ms optimiert einen grösseren buffer wird keinen sinn machen
 
 
 
