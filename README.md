@@ -43,7 +43,7 @@ Die Aktuelle version Von DeadPoolAudio_Beta_V301   kann man hier installieren  (
 
 
 
-https://drive.google.com/file/d/1Gf-ilQ3U98nTbP0Xb3TSwOtZjNWh6Eu3/view?usp=sharing
+https://drive.google.com/file/d/1-o6beYSr9slRbM1EarSErCeQN-81Tbqb/view?usp=sharing
 
 
 update 24.10.2022       # looper funktion für sampelwabbels 
